@@ -1,5 +1,6 @@
 # Meta-Frontend-Developer-Professional-Certificate
 Some content from the Meta Frontend Developer Professional certificate throughout all the courses.
+Each insertion here will have a HASH "#" and a number related to the specific course within the certification courses.
 
 Going from #1 - Introduction to frontend development discussing webapps, webpages and websites. DOM, WAI and W3C, an into to html and css with some class selectors 
 pseudo-class, box model, libraries and frameworks starting by bootstrap introduction. 
