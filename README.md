@@ -2,7 +2,7 @@
 Some content from the Meta Frontend Developer Professional certificate throughout all the courses.
 Each insertion here will have a HASH "#" and a number related to the specific course within the certification courses.
 
-Going from #1 - Introduction to frontend development discussing webapps, webpages and websites. DOM, WAI and W3C, an into to html and css with some class selectors. 
+#1 - Introduction to frontend development discussing webapps, webpages and websites. DOM, WAI and W3C, an into to html and css with some class selectors. 
 pseudo-class, box model, libraries and frameworks starting by bootstrap introduction. 
 Respondive design, breakpoint, fixed grid and fluid grid, bootstrap infixes, modifiers, grid system.
 Web server and application server and how they relate. SPA bundling and lazy loading. 
@@ -15,4 +15,4 @@ Some math object and cheat sheet with some constants, rounding methods, arithmet
 A closer look into strings with CONCATENATE and then OBJECT METHODS, typeOf operator and finally Error Handling. 
 In Error Handling i got to see TRY and CATCH statement, THROW, and how to use it to solve problems with syntax, logical and all the other common errors.
 
-#the upcoming courses which is inside the full certificate i'll insert in due time.
+#the upcoming courses which is inside the full certificate i'll update in due time.
