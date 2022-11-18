@@ -15,4 +15,10 @@ Some math object and cheat sheet with some constants, rounding methods, arithmet
 A closer look into strings with CONCATENATE and then OBJECT METHODS, typeOf operator and finally Error Handling. 
 In Error Handling i got to see TRY and CATCH statement, THROW, and how to use it to solve problems with syntax, logical and all the other common errors.
 
+#3 - Version Control - Passed through the concepts of version control, some open source and proprietary softwares or technologies to use for it. But here it was mainly Git/GitHub. CVCS and DVCS.
+Then some bash commands to traverse through the content, files, directories and so on. Using VIM.
+Git Workflow - modified -> staged -> commited
+Create mode, branches, clone, pull, push, remote, add, refs, diff, comparing branches, git log, blame. So this #3 has no files in this repository.
+  
+  
 #the upcoming courses which is inside the full certificate i'll update in due time.
