@@ -1,0 +1,195 @@
+* {
+    background-color: #EAEADF;
+    font-family: Optima, Verdana, Geneva;
+    font-size: 1em;
+}
+
+.logotop {
+    height: 100px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 1.5rem sans-serif;
+    cursor: pointer;
+    will-change: transform;
+}
+
+.logotop::before,
+.logotop::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    display: block;
+    background-color: #231F20;
+    transition: all 250ms ease-in-out;
+}
+
+.logotop::before {
+    width: 2px;
+    height: 100px;
+    box-shadow: 298px 0 #AD974F;
+}
+
+.logotop::after {
+    height: 2px;
+    width: 300px;
+    box-shadow: 0 98px:#8E793E;
+}
+
+.logotop:hover::before {
+    left: -10px;
+    box-shadow: 318px 0 #8E793E;
+}
+
+.logotop:hover::after {
+    top: -10px;
+    box-shadow: 0 118px #231F20;
+}
+
+
+.promotion>img {
+    display: grid;
+    background-color: #231F20;
+}
+
+
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #231F20;
+    text-decoration: #8E793E;
+    text-align: center;
+    font-size: 1.2rem;
+    text-emphasis-color: #231F20;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.nav {
+    color: #8E793E;
+    background-color: #231F20;
+    text-align: center;
+    padding: 25px;
+
+}
+
+.nav>a {
+    background-color: #231F20;
+    color: #8E793E;
+    font-weight: bolder;
+}
+
+
+.promotion>h1 {
+    background-image: url(file:///Users/user/Documents/Meta%20Frontend%20projects/graded_portfolio/m&g_images/img2.jpeg);
+    padding: 9%;
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #AD974F;
+    text-transform: uppercase;
+    font-family: 'Steelfish Rg', 'helvetica neue',
+        helvetica, arial, sans-serif;
+    font-weight: bolder;
+    transition: transform .2s;
+}
+
+.promotion>h1:hover {
+    transform: scale(1.05);
+    color: #EAEAEA;
+}
+
+#h2>p {
+    margin: 50px;
+    font-size: 0.5rem;
+    text-align: right
+}
+
+.container {
+    text-align: center;
+}
+
+.promotion>h2 {
+    color: #AD974F;
+}
+
+.column1 {
+    color: #AD974F;
+    transition: transform .2s;
+}
+
+.column1:hover {
+    transform: scale(1.05);
+    color: #8E793E;
+    text-decoration-line: underline;
+}
+
+.column2 {
+    color: #AD974F;
+    transition: transform .2s;
+}
+
+.column2:hover {
+    transform: scale(1.05);
+    color: #8E793E;
+    text-decoration-line: underline;
+}
+
+.column3 {
+    color: #AD974F;
+    transition: transform .2s;
+}
+
+.column3:hover {
+    transform: scale(1.05);
+    color: #8E793E;
+    text-decoration-line: underline;
+}
+
+.column1>p {
+    display: grid;
+    margin: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.column2>p {
+    display: grid;
+    margin: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.column3>p {
+    display: grid;
+    margin: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+.flex-container {
+    display: grid;
+    grid-template-rows: 80px;
+    grid-template-columns: auto auto;    
+    text-decoration-line: overline; 
+}
+
+
+.flex-container>.smalllogo{
+    grid-column: 1;
+    grid-row: 1;
+    padding: 10%;
+}
+
+.flex-container>.copyright {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 10%;
+    text-align: end;
+}
