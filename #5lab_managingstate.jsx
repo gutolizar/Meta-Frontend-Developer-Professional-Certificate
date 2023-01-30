@@ -1,3 +1,4 @@
+// managing state
 // App.js
 import React from "react";
 import Fruits from "./Fruits";
