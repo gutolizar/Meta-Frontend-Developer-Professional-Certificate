@@ -1,4 +1,4 @@
-//App.js
+// App.js
 
 import logo from "./assets/logo.png"
 
